@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['machine_5flearning_2708',['machine_learning',['../d8/d77/namespacemachine__learning.html',1,'']]],
-  ['median_5fsearch_2709',['median_search',['../da/dd4/namespacemedian__search.html',1,'']]],
-  ['merge_5finsertion_2710',['merge_insertion',['../de/d0a/namespacemerge__insertion.html',1,'']]]
+  ['kadane_3158',['kadane',['../d6/d74/namespacekadane.html',1,'']]],
+  ['knapsack_3159',['Knapsack',['../d7/daf/namespace_knapsack.html',1,'']]]
 ];

@@ -1,18 +1,8 @@
 var searchData=
 [
-  ['shell_5fsort2_2ecpp_2850',['shell_sort2.cpp',['../d4/d7a/shell__sort2_8cpp.html',1,'']]],
-  ['shortest_5fcommon_5fsupersequence_2ecpp_2851',['shortest_common_supersequence.cpp',['../d7/d65/shortest__common__supersequence_8cpp.html',1,'']]],
-  ['sieve_5fof_5feratosthenes_2ecpp_2852',['sieve_of_eratosthenes.cpp',['../d8/ddf/sieve__of__eratosthenes_8cpp.html',1,'']]],
-  ['skip_5flist_2ecpp_2853',['skip_list.cpp',['../d0/d5a/skip__list_8cpp.html',1,'']]],
-  ['smallest_5fcircle_2ecpp_2854',['smallest_circle.cpp',['../d0/d01/smallest__circle_8cpp.html',1,'']]],
-  ['sparse_5fmatrix_2ecpp_2855',['sparse_matrix.cpp',['../d3/d19/sparse__matrix_8cpp.html',1,'']]],
-  ['spiral_5fprint_2ecpp_2856',['spiral_print.cpp',['../db/d07/spiral__print_8cpp.html',1,'']]],
-  ['spirograph_2ecpp_2857',['spirograph.cpp',['../da/d77/spirograph_8cpp.html',1,'']]],
-  ['sqrt_5fdouble_2ecpp_2858',['sqrt_double.cpp',['../da/d24/sqrt__double_8cpp.html',1,'']]],
-  ['stack_2eh_2859',['stack.h',['../d7/de0/stack_8h.html',1,'']]],
-  ['stairs_5fpattern_2ecpp_2860',['stairs_pattern.cpp',['../d5/def/stairs__pattern_8cpp.html',1,'']]],
-  ['string_5ffibonacci_2ecpp_2861',['string_fibonacci.cpp',['../de/d47/string__fibonacci_8cpp.html',1,'']]],
-  ['successive_5fapproximation_2ecpp_2862',['successive_approximation.cpp',['../df/dc8/successive__approximation_8cpp.html',1,'']]],
-  ['sudoku_5fsolve_2ecpp_2863',['sudoku_solve.cpp',['../d6/d7b/sudoku__solve_8cpp.html',1,'']]],
-  ['sum_5fof_5fdigits_2ecpp_2864',['sum_of_digits.cpp',['../d4/d83/sum__of__digits_8cpp.html',1,'']]]
+  ['rabin_5fkarp_2ecpp_3370',['rabin_karp.cpp',['../d6/dce/rabin__karp_8cpp.html',1,'']]],
+  ['radix_5fsort2_2ecpp_3371',['radix_sort2.cpp',['../d8/d61/radix__sort2_8cpp.html',1,'']]],
+  ['rat_5fmaze_2ecpp_3372',['rat_maze.cpp',['../dc/d5a/rat__maze_8cpp.html',1,'']]],
+  ['realtime_5fstats_2ecpp_3373',['realtime_stats.cpp',['../d0/d08/realtime__stats_8cpp.html',1,'']]],
+  ['rungekutta_2ecpp_3374',['rungekutta.cpp',['../d1/da6/rungekutta_8cpp.html',1,'']]]
 ];
