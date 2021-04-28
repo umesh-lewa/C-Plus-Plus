@@ -22,7 +22,7 @@
  */
 namespace backtracking {
     /**
-     * Checks if it's possible to place a 'no'
+     * Checks if it's possible to place a number 'no'
      * @tparam V number of vertices in the array
      * @param mat matrix where numbers are saved
      * @param i current index in rows
@@ -34,14 +34,14 @@ namespace backtracking {
      */
     template <size_t V>
     bool isPossible(const std::array <std::array <int, V>, V> &mat, int i, int j, int no, int n) {
-        /// Row or col nahin hona chahiye
+        /// 'no' shouldn't be present in either row i or column j
         for (int x = 0; x < n; x++) {
             if (mat[x][j] == no || mat[i][x] == no) {
                 return false;
             }
         }
 
-        /// Subgrid mein nahi hona chahiye
+        /// 'no' shouldn't be present in the 3*3 subgrid
         int sx = (i / 3) * 3;
         int sy = (j / 3) * 3;
 
@@ -59,14 +59,19 @@ namespace backtracking {
      * Utility function to print matrix
      * @tparam V number of vertices in array
      * @param mat matrix where numbers are saved
+     * @param starting_mat copy of mat, required by printMat for highlighting the differences
      * @param n number of times loop will run
      * @return void
      */
     template <size_t V>
-    void printMat(const std::array <std::array <int, V>, V> &mat, int n) {
+    void printMat(const std::array <std::array <int, V>, V> &mat, const std::array <std::array <int, V>, V> &starting_mat, int n) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                std::cout << mat[i][j] << " ";
+                if (starting_mat[i][j] != mat[i][j]) {
+                    std::cout << "\033[93m" << mat[i][j] << "\033[0m" << " ";
+                } else {
+                    std::cout << mat[i][j] << " ";
+                }
                 if ((j + 1) % 3 == 0) {
                     std::cout << '\t';
                 }
@@ -82,44 +87,45 @@ namespace backtracking {
      * Sudoku algorithm
      * @tparam V number of vertices in array
      * @param mat matrix where numbers are saved
+     * @param starting_mat copy of mat, required by printMat for highlighting the differences
      * @param i current index in rows
      * @param j current index in columns
      * @returns `true` if 'no' was placed
      * @returns `false` if 'no' was not placed
      */
     template <size_t V>
-    bool solveSudoku(std::array <std::array <int, V>, V> &mat, int i, int j) {
+    bool solveSudoku(std::array <std::array <int, V>, V> &mat, const std::array <std::array <int, V>, V> &starting_mat, int i, int j) {
         /// Base Case
         if (i == 9) {
-            /// Solve kr chuke hain for 9 rows already
-            backtracking::printMat<V>(mat, 9);
+            /// Solved for 9 rows already
+            backtracking::printMat<V>(mat, starting_mat, 9);
             return true;
         }
 
         /// Crossed the last  Cell in the row
         if (j == 9) {
-            return backtracking::solveSudoku<V>(mat, i + 1, 0);
+            return backtracking::solveSudoku<V>(mat, starting_mat, i + 1, 0);
         }
 
         /// Blue Cell - Skip
         if (mat[i][j] != 0) {
-            return backtracking::solveSudoku<V>(mat, i, j + 1);
+            return backtracking::solveSudoku<V>(mat, starting_mat, i, j + 1);
         }
         /// White Cell
         /// Try to place every possible no
         for (int no = 1; no <= 9; no++) {
             if (backtracking::isPossible<V>(mat, i, j, no, 9)) {
-                /// Place the no - assuming solution aa jayega
+                /// Place the 'no' - assuming a solution will exist
                 mat[i][j] = no;
-                bool aageKiSolveHui = backtracking::solveSudoku<V>(mat, i, j + 1);
-                if (aageKiSolveHui) {
+                bool solution_found = backtracking::solveSudoku<V>(mat, starting_mat, i, j + 1);
+                if (solution_found) {
                     return true;
                 }
-                /// Nahin solve hui
+                /// Couldn't find a solution
                 /// loop will place the next no.
             }
         }
-        /// Sare no try kr liey, kisi se bhi solve nahi hui
+        /// Solution couldn't be found for any of the numbers provided
         mat[i][j] = 0;
         return false;
     }
@@ -142,9 +148,10 @@ int main() {
         std::array <int, V> {0, 0, 0, 0, 8, 0, 0, 7, 9}
     };
 
-    backtracking::printMat<V>(mat, 9);
+    backtracking::printMat<V>(mat, mat, 9);
     std::cout << "Solution " << std::endl;
-    backtracking::solveSudoku<V>(mat, 0, 0);
+    std::array <std::array <int, V>, V> starting_mat = mat;
+    backtracking::solveSudoku<V>(mat, starting_mat, 0, 0);
 
     return 0;
 }

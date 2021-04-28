@@ -1,4 +1,3 @@
-# List of all files
 
 ## Backtracking
   * [Graph Coloring](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/backtracking/graph_coloring.cpp)
@@ -10,15 +9,24 @@
   * [Rat Maze](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/backtracking/rat_maze.cpp)
   * [Sudoku Solve](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/backtracking/sudoku_solve.cpp)
 
+## Bit Manipulation
+  * [Hamming Distance](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/bit_manipulation/hamming_distance.cpp)
+
 ## Ciphers
+  * [Base64 Encoding](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/ciphers/base64_encoding.cpp)
   * [Caesar Cipher](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/ciphers/caesar_cipher.cpp)
+  * [Elliptic Curve Key Exchange](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/ciphers/elliptic_curve_key_exchange.cpp)
   * [Hill Cipher](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/ciphers/hill_cipher.cpp)
+  * [Morse Code](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/ciphers/morse_code.cpp)
+  * [Uint128 T](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/ciphers/uint128_t.hpp)
+  * [Uint256 T](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/ciphers/uint256_t.hpp)
   * [Vigenere Cipher](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/ciphers/vigenere_cipher.cpp)
   * [Xor Cipher](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/ciphers/xor_cipher.cpp)
 
 ## Data Structures
   * [Avltree](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/avltree.cpp)
   * [Binary Search Tree](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/binary_search_tree.cpp)
+  * [Binary Search Tree2](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/binary_search_tree2.cpp)
   * [Binaryheap](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/binaryheap.cpp)
   * [Circular Queue Using Linked List](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/circular_queue_using_linked_list.cpp)
   * Cll
@@ -37,6 +45,7 @@
   * [Queue Using Linked List](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/queue_using_linked_list.cpp)
   * [Queue Using Linkedlist](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/queue_using_linkedlist.cpp)
   * [Queue Using Two Stacks](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/queue_using_two_stacks.cpp)
+  * [Rb Tree](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/rb_tree.cpp)
   * [Skip List](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/skip_list.cpp)
   * [Stack](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/stack.h)
   * [Stack Using Array](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/stack_using_array.cpp)
@@ -45,35 +54,45 @@
   * [Test Stack](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/test_stack.cpp)
   * [Test Stack Students](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/test_stack_students.cpp)
   * [Tree](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/tree.cpp)
+  * [Tree 234](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/tree_234.cpp)
   * [Trie Modern](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/trie_modern.cpp)
   * [Trie Tree](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/trie_tree.cpp)
+  * [Trie Using Hashmap](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/data_structures/trie_using_hashmap.cpp)
 
 ## Dynamic Programming
   * [0 1 Knapsack](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/0_1_knapsack.cpp)
+  * [Abbreviation](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/abbreviation.cpp)
   * [Armstrong Number](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/armstrong_number.cpp)
   * [Bellman Ford](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/bellman_ford.cpp)
   * [Catalan Numbers](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/catalan_numbers.cpp)
   * [Coin Change](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/coin_change.cpp)
+  * [Coin Change Topdown](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/coin_change_topdown.cpp)
   * [Cut Rod](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/cut_rod.cpp)
   * [Edit Distance](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/edit_distance.cpp)
   * [Egg Dropping Puzzle](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/egg_dropping_puzzle.cpp)
   * [Fibonacci Bottom Up](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/fibonacci_bottom_up.cpp)
   * [Floyd Warshall](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/floyd_warshall.cpp)
   * [Kadane](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/kadane.cpp)
+  * [Kadane2](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/kadane2.cpp)
   * [Longest Common String](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/longest_common_string.cpp)
   * [Longest Common Subsequence](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/longest_common_subsequence.cpp)
   * [Longest Increasing Subsequence](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/longest_increasing_subsequence.cpp)
   * [Longest Increasing Subsequence (Nlogn)](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/longest_increasing_subsequence_(nlogn).cpp)
+  * [Longest Palindromic Subsequence](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/longest_palindromic_subsequence.cpp)
   * [Matrix Chain Multiplication](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/matrix_chain_multiplication.cpp)
+  * [Minimum Edit Distance](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/minimum_edit_distance.cpp)
+  * [Palindrome Partitioning](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/palindrome_partitioning.cpp)
   * [Searching Of Element In Dynamic Array](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/searching_of_element_in_dynamic_array.cpp)
   * [Shortest Common Supersequence](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/shortest_common_supersequence.cpp)
   * [Tree Height](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/tree_height.cpp)
+  * [Word Break](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/word_break.cpp)
 
 ## Geometry
   * [Jarvis Algorithm](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/geometry/jarvis_algorithm.cpp)
   * [Line Segment Intersection](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/geometry/line_segment_intersection.cpp)
 
 ## Graph
+  * [Bidirectional Dijkstra](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/graph/bidirectional_dijkstra.cpp)
   * [Breadth First Search](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/graph/breadth_first_search.cpp)
   * [Bridge Finding With Tarjan Algorithm](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/graph/bridge_finding_with_tarjan_algorithm.cpp)
   * [Connected Components](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/graph/connected_components.cpp)
@@ -83,6 +102,7 @@
   * [Depth First Search With Stack](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/graph/depth_first_search_with_stack.cpp)
   * [Dijkstra](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/graph/dijkstra.cpp)
   * [Hamiltons Cycle](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/graph/hamiltons_cycle.cpp)
+  * [Hopcroft Karp](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/graph/hopcroft_karp.cpp)
   * [Is Graph Bipartite](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/graph/is_graph_bipartite.cpp)
   * [Kosaraju](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/graph/kosaraju.cpp)
   * [Kruskal](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/graph/kruskal.cpp)
@@ -98,6 +118,7 @@
 ## Greedy Algorithms
   * [Dijkstra](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/greedy_algorithms/dijkstra.cpp)
   * [Huffman](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/greedy_algorithms/huffman.cpp)
+  * [Jumpgame](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/greedy_algorithms/jumpgame.cpp)
   * [Knapsack](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/greedy_algorithms/knapsack.cpp)
   * [Kruskals Minimum Spanning Tree](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/greedy_algorithms/kruskals_minimum_spanning_tree.cpp)
   * [Prims Minimum Spanning Tree](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/greedy_algorithms/prims_minimum_spanning_tree.cpp)
@@ -108,7 +129,11 @@
   * [Linear Probing Hash Table](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/hashing/linear_probing_hash_table.cpp)
   * [Quadratic Probing Hash Table](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/hashing/quadratic_probing_hash_table.cpp)
 
+## Linear Algebra
+  * [Gram Schmidt](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/linear_algebra/gram_schmidt.cpp)
+
 ## Machine Learning
+  * [A Star Search](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/machine_learning/a_star_search.cpp)
   * [Adaline Learning](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/machine_learning/adaline_learning.cpp)
   * [Kohonen Som Topology](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/machine_learning/kohonen_som_topology.cpp)
   * [Kohonen Som Trace](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/machine_learning/kohonen_som_trace.cpp)
@@ -119,7 +144,9 @@
 ## Math
   * [Armstrong Number](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/armstrong_number.cpp)
   * [Binary Exponent](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/binary_exponent.cpp)
+  * [Binomial Calculate](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/binomial_calculate.cpp)
   * [Check Amicable Pair](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/check_amicable_pair.cpp)
+  * [Check Factorial](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/check_factorial.cpp)
   * [Check Prime](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/check_prime.cpp)
   * [Complex Numbers](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/complex_numbers.cpp)
   * [Double Factorial](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/double_factorial.cpp)
@@ -130,16 +157,28 @@
   * [Fibonacci](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/fibonacci.cpp)
   * [Fibonacci Fast](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/fibonacci_fast.cpp)
   * [Fibonacci Large](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/fibonacci_large.cpp)
+  * [Fibonacci Matrix Exponentiation](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/fibonacci_matrix_exponentiation.cpp)
+  * [Fibonacci Sum](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/fibonacci_sum.cpp)
   * [Gcd Iterative Euclidean](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/gcd_iterative_euclidean.cpp)
   * [Gcd Of N Numbers](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/gcd_of_n_numbers.cpp)
   * [Gcd Recursive Euclidean](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/gcd_recursive_euclidean.cpp)
+  * [Integral Approximation](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/integral_approximation.cpp)
   * [Large Factorial](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/large_factorial.cpp)
   * [Large Number](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/large_number.h)
+  * [Largest Power](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/largest_power.cpp)
+  * [Lcm Sum](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/lcm_sum.cpp)
   * [Least Common Multiple](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/least_common_multiple.cpp)
+  * [Linear Recurrence Matrix](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/linear_recurrence_matrix.cpp)
+  * [Magic Number](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/magic_number.cpp)
   * [Miller Rabin](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/miller_rabin.cpp)
+  * [Modular Division](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/modular_division.cpp)
+  * [Modular Exponentiation](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/modular_exponentiation.cpp)
   * [Modular Inverse Fermat Little Theorem](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/modular_inverse_fermat_little_theorem.cpp)
+  * [N Choose R](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/n_choose_r.cpp)
+  * [Ncr Modulo P](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/ncr_modulo_p.cpp)
   * [Number Of Positive Divisors](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/number_of_positive_divisors.cpp)
   * [Power For Huge Numbers](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/power_for_huge_numbers.cpp)
+  * [Power Of Two](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/power_of_two.cpp)
   * [Prime Factorization](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/prime_factorization.cpp)
   * [Prime Numbers](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/prime_numbers.cpp)
   * [Primes Up To Billion](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/primes_up_to_billion.cpp)
@@ -147,7 +186,9 @@
   * [Sieve Of Eratosthenes](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/sieve_of_eratosthenes.cpp)
   * [Sqrt Double](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/sqrt_double.cpp)
   * [String Fibonacci](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/string_fibonacci.cpp)
+  * [Sum Of Binomial Coefficient](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/sum_of_binomial_coefficient.cpp)
   * [Sum Of Digits](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/sum_of_digits.cpp)
+  * [Vector Cross Product](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/math/vector_cross_product.cpp)
 
 ## Numerical Methods
   * [Bisection Method](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/numerical_methods/bisection_method.cpp)
@@ -165,6 +206,7 @@
   * [Qr Decompose](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/numerical_methods/qr_decompose.h)
   * [Qr Decomposition](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/numerical_methods/qr_decomposition.cpp)
   * [Qr Eigen Values](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/numerical_methods/qr_eigen_values.cpp)
+  * [Rungekutta](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/numerical_methods/rungekutta.cpp)
   * [Successive Approximation](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/numerical_methods/successive_approximation.cpp)
 
 ## Operations On Datastructures
@@ -176,6 +218,7 @@
   * [Intersection Of 2 Arrays](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/operations_on_datastructures/intersection_of_2_arrays.cpp)
   * [Reverse A Linked List Using Recusion](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/operations_on_datastructures/reverse_a_linked_list_using_recusion.cpp)
   * [Selectionsortlinkedlist](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/operations_on_datastructures/selectionsortlinkedlist.cpp)
+  * [Trie Multiple Search](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/operations_on_datastructures/trie_multiple_search.cpp)
   * [Union Of 2 Arrays](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/operations_on_datastructures/union_of_2_arrays.cpp)
 
 ## Others
@@ -189,6 +232,7 @@
   * [Palindrome Of Number](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/others/palindrome_of_number.cpp)
   * [Paranthesis Matching](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/others/paranthesis_matching.cpp)
   * [Pascal Triangle](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/others/pascal_triangle.cpp)
+  * [Postfix Evaluation](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/others/postfix_evaluation.cpp)
   * [Primality Test](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/others/primality_test.cpp)
   * [Smallest Circle](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/others/smallest_circle.cpp)
   * [Sparse Matrix](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/others/sparse_matrix.cpp)
@@ -207,7 +251,9 @@
   * [Fenwick Tree](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/range_queries/fenwick_tree.cpp)
   * [Heavy Light Decomposition](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/range_queries/heavy_light_decomposition.cpp)
   * [Mo](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/range_queries/mo.cpp)
+  * [Persistent Seg Tree Lazy Prop](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/range_queries/persistent_seg_tree_lazy_prop.cpp)
   * [Segtree](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/range_queries/segtree.cpp)
+  * [Sparse Table](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/range_queries/sparse_table.cpp)
 
 ## Search
   * [Binary Search](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/search/binary_search.cpp)
@@ -219,6 +265,7 @@
   * [Jump Search](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/search/jump_search.cpp)
   * [Linear Search](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/search/linear_search.cpp)
   * [Median Search](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/search/median_search.cpp)
+  * [Saddleback Search](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/search/saddleback_search.cpp)
   * [Ternary Search](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/search/ternary_search.cpp)
   * [Text Search](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/search/text_search.cpp)
 
@@ -230,8 +277,10 @@
   * [Bucket Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/bucket_sort.cpp)
   * [Cocktail Selection Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/cocktail_selection_sort.cpp)
   * [Comb Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/comb_sort.cpp)
+  * [Count Inversions](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/count_inversions.cpp)
   * [Counting Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/counting_sort.cpp)
   * [Counting Sort String](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/counting_sort_string.cpp)
+  * [Cycle Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/cycle_sort.cpp)
   * [Gnome Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/gnome_sort.cpp)
   * [Heap Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/heap_sort.cpp)
   * [Insertion Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/insertion_sort.cpp)
@@ -241,16 +290,20 @@
   * [Non Recursive Merge Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/non_recursive_merge_sort.cpp)
   * [Numeric String Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/numeric_string_sort.cpp)
   * [Odd Even Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/odd_even_sort.cpp)
+  * [Pancake Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/pancake_sort.cpp)
   * [Pigeonhole Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/pigeonhole_sort.cpp)
   * [Quick Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/quick_sort.cpp)
   * [Quick Sort 3](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/quick_sort_3.cpp)
   * [Radix Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/radix_sort.cpp)
+  * [Radix Sort2](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/radix_sort2.cpp)
   * [Selection Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/selection_sort.cpp)
   * [Shell Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/shell_sort.cpp)
   * [Shell Sort2](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/shell_sort2.cpp)
   * [Slow Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/slow_sort.cpp)
+  * [Strand Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/strand_sort.cpp)
   * [Swap Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/swap_sort.cpp)
   * [Tim Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/tim_sort.cpp)
+  * [Wiggle Sort](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/sorting/wiggle_sort.cpp)
 
 ## Strings
   * [Brute Force String Searching](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/strings/brute_force_string_searching.cpp)
